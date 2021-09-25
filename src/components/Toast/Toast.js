@@ -8,7 +8,7 @@ const Toast = () => {
         
       </div>
       <p>name</p>
-      <div className="close"><i class="fas fa-times"></i></div>
+      <div className="close"><i class='bx bx-x'></i></div>
     </div>
   );
 };

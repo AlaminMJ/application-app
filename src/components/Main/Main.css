@@ -1,9 +1,9 @@
 .main {
   width: 100%;
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 4.5fr 1.5fr;
   height: 100vh;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 .main  h3{
     font-size: 24px;

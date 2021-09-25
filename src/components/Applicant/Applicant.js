@@ -14,7 +14,7 @@ const Applicant = (props) => {
         <p> Name: {name}</p>
         <p> Age {age}</p>
         <p>Salary : {salary}</p>
-        <button onClick={()=>fn(id)}>Confrim</button>
+        <button onClick={()=>fn(id)}>Confrim <i class='bx bx-check'></i></button>
       </div>
     </div>
   );

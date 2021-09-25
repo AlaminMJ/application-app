@@ -1,0 +1,12 @@
+.card{
+    width: 100%;
+    
+    
+    margin-left: 50px;
+}
+.card-content{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    height: 200px;
+
+}

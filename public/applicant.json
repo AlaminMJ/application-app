@@ -1,0 +1,128 @@
+[
+  {
+    "id": "101",
+    "name": "Alamin Hossain",
+    "age": 25,
+    "skills": ["React", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "salary": 22000,
+    "designation": "Software Developer"
+  },
+  {
+    "id": "102",
+    "name": "Mariya Akter",
+    "age": 23,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/3770140/pexels-photo-3770140.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 20000,
+    "designation": "Junior Software Developer"
+  },
+  {
+    "id": "103",
+    "name": "Jihad Hossain",
+    "age": 22,
+    "skills": ["Vue", "Express", "NodeJs"],
+    "image": "https://images.pexels.com/photos/3875646/pexels-photo-3875646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 15000,
+    "designation": "Intern Software Developer"
+  },
+  {
+    "id": "104",
+    "name": "Fahidul Islam",
+    "age": 32,
+    "skills": ["Python", "Java", "NodeJs", "Express"],
+    "image": "https://images.pexels.com/photos/50855/pexels-photo-50855.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 40000,
+    "designation": "Senior Software Developer"
+  },
+  {
+    "id": "105",
+    "name": "Arif MJ",
+    "age": 42,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/3501159/pexels-photo-3501159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 120000,
+    "designation": "Product Manager"
+  },
+  {
+    "id": "106",
+    "name": "Aminur",
+    "age": 20,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 20000,
+    "designation": "Intern Software Developer"
+  },
+  {
+    "id": "107",
+    "name": "Abdul Alim",
+    "age": 23,
+    "skills": ["Angular", "Typescript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/2216607/pexels-photo-2216607.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 22000,
+    "designation": "Junior Software Developer"
+  },
+  {
+    "id": "108",
+    "name": "Shakila",
+    "age": 27,
+    "skills": ["Java", "PHP", "NodeJs"],
+    "image": "https://images.pexels.com/photos/7516321/pexels-photo-7516321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 80000,
+    "designation": "Software Engineer"
+  },
+  {
+    "id": "109",
+    "name": "Alamin MJ",
+    "age": 25,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 20000,
+    "designation": "Junior Software Developer"
+  },
+  {
+    "id": "110",
+    "name": "Yamin Hossain",
+    "age": 35,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 200000,
+    "designation": "CTO"
+  },
+  {
+    "id": "111",
+    "name": "Jisan Ali",
+    "age": 28,
+    "skills": ["React", "Backbone.js", "NodeJs"],
+    "image": "https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 40000,
+    "designation": "Software Developer"
+  },
+  {
+    "id": "112",
+    "name": "Monalisa",
+    "age": 21,
+    "skills": ["Angular", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/6953849/pexels-photo-6953849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 22000,
+    "designation": "Junior Software Developer"
+  },
+  {
+    "id": "113",
+    "name": "Sabnor",
+    "age": 22,
+    "skills": ["react", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/6954034/pexels-photo-6954034.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 18000,
+    "designation": "Junior Software Developer"
+  },
+  {
+    "id": "114",
+    "name": "Tariful Islam",
+    "age": 24,
+    "skills": ["Vue", "Javascript", "NodeJs"],
+    "image": "https://images.pexels.com/photos/3707987/pexels-photo-3707987.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "salary": 23000,
+    "designation": "Senior Software Developer"
+  }
+]

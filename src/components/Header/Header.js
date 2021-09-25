@@ -6,9 +6,11 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="navbar">
-                <div className="logo"></div>
+                <div className="logo">
+                    <h2>Hulu.c</h2>
+                </div>
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li className="active"><a href="/">Home</a></li>
                     <li><a href="/">Services</a></li>
                     <li><a href="/">About</a></li>
                     <li><a href="/">Contact</a></li>

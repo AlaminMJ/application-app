@@ -1,9 +1,9 @@
 .main {
   width: 100%;
   display: grid;
-  grid-template-columns: 4.5fr 1.5fr;
+  grid-template-columns: 4.6fr 1.4fr;
   height: 100vh;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 .main  h3{
     font-size: 24px;
@@ -11,6 +11,17 @@
 }
 .main .applicant-container .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+.toastList{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 300px;
+  overflow-y: auto;
+  
+}
+/* .toastList::-webkit-scrollbar{
+  width: 10px;
+} */

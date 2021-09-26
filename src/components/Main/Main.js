@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Applicant from "../Applicant/Applicant";
-import ToastList from "../ApplicentApproveList/ToastList";
 import Card from "../Card/Card";
+import Toast from "../Toast/Toast";
 import "./Main.css";
 
 const Main = () => {
@@ -15,8 +15,8 @@ const Main = () => {
 
   const [addedApplicents, setAddedApplicents] = useState([]);
   //   add appliced handling
-  const addApplicent = (id) => {
-    const newAddedApplicents = [...addedApplicents, id];
+  const addApplicent = (approveObj) => {
+    const newAddedApplicents = [...addedApplicents, approveObj];
     setAddedApplicents(newAddedApplicents);
   };
 
@@ -24,7 +24,7 @@ const Main = () => {
     if (addedApplicents.length) {
       applicents.filter((applicent) => addedApplicents.includes(applicent.id));
     }
-  }, [addedApplicents,applicents]);
+  }, [addedApplicents, applicents]);
 
   return (
     <div className="main container">
@@ -41,12 +41,18 @@ const Main = () => {
         </div>
       </div>
       <div className="aside-bar">
-      
-          <Card></Card>
-          <ToastList>
-            
-          </ToastList>
-          
+        <Card
+          total={addedApplicents.length}
+          totalSalary={addedApplicents.reduce(
+            (preciousVal, currentVal) => preciousVal + currentVal.salary,
+            0
+          )}
+        ></Card>
+        <div className="toastList">
+          {addedApplicents.map((applicent) => {
+            return <Toast key={applicent.id + "aj"} data={applicent}></Toast>;
+          })}
+        </div>
       </div>
     </div>
   );

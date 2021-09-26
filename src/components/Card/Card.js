@@ -1,13 +1,13 @@
 import React from "react";
 import "./Card.css";
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card">
-      <h3>Summery of Approve </h3>
+      <h3>Applicent Approve</h3>
       <div className="card-content">
-      <span>This is card</span>
+        <p>Total Approve : {props.total}</p>
+        <p>Total Cost : {props.totalSalary}</p>
       </div>
-      
     </div>
   );
 };

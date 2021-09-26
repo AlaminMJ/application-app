@@ -1,14 +1,16 @@
 import React from "react";
 import "./Toast.css";
-const Toast = () => {
-  // const{image,name} = props.data
+const Toast = (props) => {
+  const { image, name } = props.data;
   return (
     <div className="toast">
       <div className="image">
-        
+        <img src={image} alt="applicent"/>
       </div>
-      <p>name</p>
-      <div className="close"><i class='bx bx-x'></i></div>
+      <p>{name}</p>
+      <div className="close">
+        <i className="bx bx-x"></i>
+      </div>
     </div>
   );
 };

@@ -1,36 +1,86 @@
-.applicent{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height: 300px;
+.applicent {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  height: 320px;
+  border-radius: 5px;
+  overflow: hidden;
 }
-.applicent .image{
-    height: 45%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+.applicent .image {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 50px; */
 }
-.applicent .image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.applicent .image img {
+  width: 100px;
+  height: 100px;
+  transform: scale(1);
+  object-fit: cover;
+  border-radius: 50%;
 }
-.applicent .content{
-    padding: 10px;
+.applicent .content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.applicent .content p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #333;
-    margin: 0;
+.applicent .content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
 }
-.applicent .content button{
-    border: none;
-    outline: none;
-    padding: 8px 15px;
+.applicent .content button {
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  background-color: royalblue;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  transition: .1s;
+}
+.applicent .content button:hover{
+    background-color: rgb(21, 72, 226);
+}
+.applicent .content button i {
+  font-size: 16px;
+  margin-left: 5px;
+}
+.applicent .content .deg {
+  margin: 8px 0 2px;
+  font-size: 16px;
+}
+.applicent .content .name {
+  font-size: 17px;
+}
+
+.applicent .social {
+  height: 40px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.applicent .social i {
+  font-size: 20px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: rgb(161, 161, 161);
+  line-height: 30px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  transition: .4s;
+}
+.applicent .social i:hover{
     background-color: royalblue;
-    font-size: 16px;
     color: #fff;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-.applicent .content button i{
-    font-size: 20px;
-    margin-left: 5px;
 }

@@ -16,7 +16,6 @@ const Main = () => {
   const [addedApplicents, setAddedApplicents] = useState([]);
   //   add appliced handling
   const addApplicent = (approveObj) => {
-    
     const newAddedApplicents = [...addedApplicents, approveObj];
     setAddedApplicents(newAddedApplicents);
   };

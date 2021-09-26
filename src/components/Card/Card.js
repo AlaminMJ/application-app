@@ -7,7 +7,9 @@ const Card = (props) => {
       <div className="card-content">
         <p>Total Approve : {props.total}</p>
         <p>Total Cost : {props.totalSalary}</p>
-        <button className="btn">Remove All <i className='bx bx-user-x'></i></button>
+        <button className="btn">
+          Remove All <i className="bx bx-user-x"></i>
+        </button>
       </div>
     </div>
   );

@@ -22,6 +22,9 @@
   overflow-y: auto;
   
 }
-/* .toastList::-webkit-scrollbar{
-  width: 10px;
-} */
+ .aside-bar{
+   position: sticky;
+   top:0;
+   right: 0;
+
+ }

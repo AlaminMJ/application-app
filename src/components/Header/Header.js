@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container">
                 <div className="navbar">
                 <div className="logo">
-                    <h2>Hulu.c</h2>
+                    <h2>Apply.com</h2>
                 </div>
                 <ul>
                     <li className="active"><a href="/">Home</a></li>
